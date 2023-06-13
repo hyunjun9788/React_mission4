@@ -2,6 +2,7 @@
 import './App.css';
 import Header from "./Header";
 import Content from "./Content";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -10,9 +11,7 @@ function App() {
 
       <Content/>
 
-      <footer>
-        <p>&copy; 2023 My Website. All rights reserved.</p>
-      </footer>
+      <Footer/>
     </div>
   );
 }
